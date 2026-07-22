@@ -3,6 +3,23 @@
     <channel>
         <title>Catalyst</title>
         <item>
+            <title>1.2</title>
+            <description><![CDATA[
+<h2>Catalyst 1.2</h2>
+<ul>
+  <li>Noticeably faster — screens open quicker and long package lists scroll smoothly, even while the machine is busy.</li>
+  <li>A leaner backend: catalog and update requests do less work and recover cleanly when the network is slow or drops out.</li>
+  <li>Fixed a batch of bugs from the last release, so more actions succeed on the first try.</li>
+  <li>Groundwork under the hood for what's coming next.</li>
+</ul>
+            ]]></description>
+            <pubDate>Wed, 22 Jul 2026 14:58:21 +0530</pubDate>
+            <sparkle:version>1.2</sparkle:version>
+            <sparkle:shortVersionString>1.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.6</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/theappfoundryco/Catalyst/releases/download/v1.2/Catalyst-1.2.dmg" length="8524925" type="application/x-apple-diskimage" sparkle:edSignature="weSqW3frDOC1b44iF0GmSfuW4yo1H8DU2ttR/A1xpIt/HdYQr//VcHzLEHuCy0hx3wvzBk6cueIf2DIoO2TVDA=="/>
+        </item>
+        <item>
             <title>1.1</title>
             <description><![CDATA[
 <h2>Catalyst 1.1</h2>
@@ -21,6 +38,8 @@
         <item>
             <title>1.0</title>
             <description><![CDATA[
+<!-- catalyst:deprecated -->
+<p><strong>⚠️ Deprecated —</strong> this version is superseded. Please update to Catalyst 1.1.</p>
 <h2>Catalyst 1.0</h2>
 <ul>
   <li>Catalyst is now free. Every feature, with no licence to buy, no trial to run out, and nothing behind an upgrade screen.</li>
