@@ -1,5 +1,12 @@
 # Catalyst — Changelog
 
+## v1.3 — 2026-07-22
+- A personal touch: pick a name and an avatar from a gallery of 100, right from the new profile row at the bottom of the sidebar.
+- Launch is steadier — fixed a race that could intermittently leave the dashboard loading forever until the app was reopened.
+- The dashboard fills in faster: Python detection now checks all interpreters at once instead of one at a time.
+- Package updates no longer stall silently — long installs stream their progress live, and anything that would sit waiting forever is stopped and reported.
+- On Python 3.12+ with Protected mode on, package lists now say "Protected Mode" instead of offering an Install button that couldn't work.
+
 ## v1.2 — 2026-07-22
 - Noticeably faster — screens open quicker and long package lists scroll smoothly, even while the machine is busy.
 - A leaner backend: catalog and update requests do less work and recover cleanly when the network is slow or drops out.

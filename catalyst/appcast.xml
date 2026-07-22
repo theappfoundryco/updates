@@ -3,6 +3,24 @@
     <channel>
         <title>Catalyst</title>
         <item>
+            <title>1.3</title>
+            <description><![CDATA[
+<h2>Catalyst 1.3</h2>
+<ul>
+  <li>A personal touch: pick a name and an avatar from a gallery of 100, right from the new profile row at the bottom of the sidebar.</li>
+  <li>Launch is steadier — fixed a race that could intermittently leave the dashboard loading forever until the app was reopened.</li>
+  <li>The dashboard fills in faster: Python detection now checks all interpreters at once instead of one at a time.</li>
+  <li>Package updates no longer stall silently — long installs stream their progress live, and anything that would sit waiting forever is stopped and reported.</li>
+  <li>On Python 3.12+ with Protected mode on, package lists now say "Protected Mode" instead of offering an Install button that couldn't work.</li>
+</ul>
+            ]]></description>
+            <pubDate>Wed, 22 Jul 2026 23:40:04 +0530</pubDate>
+            <sparkle:version>1.3</sparkle:version>
+            <sparkle:shortVersionString>1.3</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.6</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/theappfoundryco/Catalyst/releases/download/v1.3/Catalyst-1.3.dmg" length="8595777" type="application/x-apple-diskimage" sparkle:edSignature="yvMc7CO54VALxVUeRr8sD7fHDz3ViBDRLg6CulmVTjpSb0e6kaeANqrDg1J3OCmc24tRBqBaeIVcmjKD8AgAAQ=="/>
+        </item>
+        <item>
             <title>1.2</title>
             <description><![CDATA[
 <h2>Catalyst 1.2</h2>
@@ -22,6 +40,8 @@
         <item>
             <title>1.1</title>
             <description><![CDATA[
+<!-- catalyst:deprecated -->
+<p><strong>⚠️ Deprecated —</strong> this version is superseded. Please update to Catalyst 1.2.</p>
 <h2>Catalyst 1.1</h2>
 <ul>
   <li>Automatic updates are now verified end to end, so future versions arrive in the background and install with a single click.</li>
@@ -39,7 +59,7 @@
             <title>1.0</title>
             <description><![CDATA[
 <!-- catalyst:deprecated -->
-<p><strong>⚠️ Deprecated —</strong> this version is superseded. Please update to Catalyst 1.1.</p>
+<p><strong>⚠️ Deprecated —</strong> this version is superseded. Please update to Catalyst 1.2.</p>
 <h2>Catalyst 1.0</h2>
 <ul>
   <li>Catalyst is now free. Every feature, with no licence to buy, no trial to run out, and nothing behind an upgrade screen.</li>
